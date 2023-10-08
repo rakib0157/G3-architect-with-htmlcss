@@ -1,0 +1,335 @@
+/*========== Common css style start ==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+
+.header-container{
+    background-color: #FFF4E7;
+}
+.common-btn{
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    color:#ffffff;
+    background-color: #ff900e;
+    border-radius: 5px;
+    border: none;  
+
+}
+.common-h3{
+    font-size: 40px;
+    color: #131313;
+    font-weight: 600;
+}
+.big-btn{
+    width: 250px;
+    height: 150px;
+    background-color: #ff900e;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    bottom:150px;
+    left: -40px;
+    position: absolute;
+}
+.big-btn>h4{
+    font-size: 48px;
+    color: #ffffff;
+}
+.big-btn p{
+    font-size: 22px;
+    color: #ffffff;
+}
+.header , .banner-container ,.overview-container , .feature-container,.achivment-container , .sponsor-container , .form-container , .footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*========== Common css style end ==========*/
+
+/*=========== header area start  =============*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+nav ul{
+    display: flex;
+    gap: 48px;
+}
+nav ul li{
+   list-style-type: none; 
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+/*============ header area end  ===========*/
+
+/*============= banner section start  ============*/
+
+#banner-section{
+    max-width: 1920px;
+    height: 1010px;
+    background-color: #FFF4E7;  
+}
+.banner-description-box{
+    width: 862px;
+    margin: 0 auto;
+    padding-top:40px;
+}
+.banner-headline{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #131313;
+    text-align: center;
+}
+.banner-p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 20px;
+}
+.banner-btn{
+    text-align: center;
+    margin-top: 32px;
+}
+.banner-img >img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*================= banner-section end  ==================*/
+
+/*================ overview section start ================== */
+#overview-section{
+    max-width: 1920px;
+    height: 820px;
+}
+.overview-container{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.overview-img-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    width: 600px;
+    gap:20px;
+
+}
+.overview-img{
+    width: 290px;
+    height: 290px;
+}
+.overview-img >img{
+    width: 100%;
+}
+.overview-description-container{
+    width: 450px;
+    height: 304px;
+}
+.quick{
+    color: #727272;
+}
+.feature{
+    color: #ff900e;
+    font-weight: 700;
+}
+.overview-p{
+    margin: 28px 0px;
+}
+/*================ overview section end ================ */
+
+/*================ feature section start  ================*/
+
+#feature-section{
+    max-width: 1920px;
+    height: 1100px;
+}
+.feature-container{
+    height: 990px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.feature-description-container{
+    width: 500px;
+    height: 982px;
+}
+.bl{
+  border-left: 5px solid #ff900e;  
+}
+.feature-p{
+   font-weight: 400px;
+   font-size: 16px;
+   line-height: 26px;
+   color: #727272;
+   margin: 24px 0px;
+}
+.feature-card{
+    width: 500px;
+    height: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.card-headline{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #131313;
+}
+.feature-img-container{
+    width: 570px;
+    position: relative;
+}
+.feature-img-container>img{
+    width: 100%;
+}
+/*============== feature section end  =============*/
+
+/*=============== achivment section start============  */
+#achivment-section{
+    max-width: 1920px;
+    height: 650px;
+}
+.achivment-container{
+    height: 640px;
+}
+.achivment-card-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 110px;
+}
+.achivment-card{
+    border: 1px solid #ff900e;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.achivment-card:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.5s;
+    background-color: #FFF4E7;
+}
+/*================ achivment section end  ================*/
+
+/*================ sponsor section start  ================*/
+
+#sponsor-section{
+    max-width: 1920px;
+    height: 500px;
+}
+.sponsor-container{
+    height: 490px;
+}
+.sponsor-title{
+    text-align: center;
+}
+.sponsor-img-container{
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.sponsor-img > img{
+    -webkit-filter: grayscale(100%); /*Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+/*================ sponsor section end  ================*/
+
+/*================ contact section start  ===============*/
+#contact-section{
+    max-width: 1920px;
+    height: 700px;
+}
+.form-container{
+    height: 690px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-img{
+    width: 600px;
+}
+.form-img >img{
+    width: 100%;
+    border-radius: 8px;
+}
+.form-input-container{
+    max-width: 500px;
+
+}
+input[type ='text'] , input[type='email']{
+    width:450px;
+    height: 67px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ff900e;
+}
+textarea{
+    width: 450px;
+    height: 150px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ff900e;
+    resize: none;
+}
+input[type="submit"]{
+    width: 450px;
+    height: 40px;
+    background-color: #ff900e;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+/*================= contact section end  ==============*/
+
+/*================= footer area start  ==============*/
+#footer{
+    max-width: 1920px;
+    height: 250px;
+}
+.footer-container{
+    height:200px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*============== footer area end ============== */
